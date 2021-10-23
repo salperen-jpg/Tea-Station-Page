@@ -16,6 +16,24 @@
   </head>
   <body>
     <!-- NAVBAR -->
+    <span class="nav-btn" id="nav-btn">
+      <i class="fas fa-bars"></i>
+    </span>
+    <nav class="navbar" id="navbar">
+      <div class="navbar-header">
+        <span class="nav-close" id="nav-close"
+          ><i class="fas fa-times"></i
+        ></span>
+      </div>
+      <ul class="nav-items">
+        <li><a href="index.html" class="nav-link">home</a></li>
+        <li><a href="skills.html" class="nav-link">skills</a></li>
+        <li><a href="about.html" class="nav-link">about</a></li>
+        <li><a href="product.html" class="nav-link">product</a></li>
+      </ul>
+    </nav>
+
+    <!-- NAVBAR FINISHED -->
     <!-- HEADER  -->
     <header class="header">
       <div class="banner">
@@ -28,7 +46,9 @@
       </div>
     </header>
     <!-- END OF SKILLS SECTION -->
+    <!-- BALL ANIMATION -->
     <div class="content-divider"></div>
+
     <!-- SKILLS SECTION -->
     <section class="skills">
       <arcticle class="skill">
@@ -293,7 +313,24 @@
       </div>
     </section>
     <!-- CONTACT FINISHES -->
+    <!-- FOOTER STARTS -->
+    <footer class="footer">
+      <div class="section-center">
+        <div class="social-icons">
+          <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+        </div>
+        <h4>
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          &copy; All rights reserved
+        </h4>
+      </div>
+    </footer>
+    <!-- FOOTER FINISHES -->
 
-    <script src="app.js"></script>
+    <script src="./script/app.js"></script>
   </body>
 </html>
